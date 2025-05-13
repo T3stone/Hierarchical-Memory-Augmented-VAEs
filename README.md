@@ -1,8 +1,8 @@
 >📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# Hierarchical Memory-Augmented Variational Autoencoders: Enhancing Robust Image Generation with Multi-Scale Feature Retention
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [Hierarchical Memory-Augmented Variational Autoencoders: Enhancing Robust Image Generation with Multi-Scale Feature Retention]. 
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
