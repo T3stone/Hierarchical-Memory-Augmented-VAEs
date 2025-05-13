@@ -1,8 +1,8 @@
 
 # Hierarchical Memory-Augmented Variational Autoencoders: Enhancing Robust Image Generation with Multi-Scale Feature Retention
 
-This repository is the official implementation of [Hierarchical Memory-Augmented Variational Autoencoders: Enhancing Robust Image Generation with Multi-Scale Feature Retention]. 
-Our work highlights the potential of integrating brain-inspired hierarchical memory structures with probabilistic deep generative models to advance image synthesis capabilities
+This repository is the official implementation of the paper **"Hierarchical Memory-Augmented Variational Autoencoders: Enhancing Robust Image Generation with Multi-Scale Feature Retention"** (manuscript in active submission to *The Visual Computer*). Our work highlights the potential of integrating brain-inspired hierarchical memory structures with probabilistic deep generative models to advance image synthesis capabilities through multi-scale feature retention.
+
 
 ## Requirements
 
