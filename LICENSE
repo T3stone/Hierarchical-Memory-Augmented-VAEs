@@ -1,0 +1,9 @@
+在论文正式接收前，禁止以下行为：
+- 基于本代码的衍生研究发表
+- 模型权重及生成结果的商业使用
+- 代码架构的专利申报
+
+Prior to formal acceptance of the manuscript, the following actions are expressly prohibited:​​
+Publication of derivative research works based on this codebase
+Commercial utilization of model weights and generated outputs
+Patent filings covering the architectural framework of this implementation
