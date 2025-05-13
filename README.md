@@ -1,10 +1,8 @@
->📋  A template README.md for code accompanying a Machine Learning paper
 
 # Hierarchical Memory-Augmented Variational Autoencoders: Enhancing Robust Image Generation with Multi-Scale Feature Retention
 
 This repository is the official implementation of [Hierarchical Memory-Augmented Variational Autoencoders: Enhancing Robust Image Generation with Multi-Scale Feature Retention]. 
-
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+Our work highlights the potential of integrating brain-inspired hierarchical memory structures with probabilistic deep generative models to advance image synthesis capabilities
 
 ## Requirements
 
@@ -13,9 +11,19 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
-
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
+To set up the env environment
+```setup
+conda create -n myenv python=3.10
+```
+```setup
+conda install numpy=1.24.3 matplotlib=3.8.4 scikit-learn=1.4.2 
+```
+```setup
+conda install pytorch=2.3.1 torchvision=0.18.1 torchaudio=2.3.1 pytorch-cuda=11.8 -c pytorch -c nvidia -y
+```
+```setup
+pip install pytorch-fid==0.3.0 pytorch-msssim==1.0.0
+```
 ## Training
 
 To train the model(s) in the paper, run this command:
@@ -28,7 +36,7 @@ python train.py --input-data <path_to_data> --alpha 10 --beta 20
 
 ## Evaluation
 
-To evaluate my model on ImageNet, run:
+To evaluate my model on MNIST or Fasion-MNIST, run:
 
 ```eval
 python eval.py --model-file mymodel.pth --benchmark imagenet
@@ -48,7 +56,7 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### [Image Classification on ImageNet]
 
 | Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | ------------------ |---------------- | -------------- |
