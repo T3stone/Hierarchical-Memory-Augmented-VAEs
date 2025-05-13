@@ -38,6 +38,7 @@ python PRDC-test.ipynb --benchmark MNIST or Fasion-MNIST
 ```Different Noises
 python test-noise.ipynb --benchmark MNIST or Fasion-MNIST
 ```
-
+## LICENSE
+This project is licensed under the MIT License.
 
 
